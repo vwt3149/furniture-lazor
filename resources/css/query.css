@@ -1,0 +1,342 @@
+/*----BIG THABLET TO 1200PX----*/
+@media only screen and (max-width: 1200px) {
+
+
+    .row {
+        padding: 0 2%;
+        width: auto;
+    }
+
+    .links li {margin-right: 40px;}
+
+}
+
+/*----SMALL PHONES TO BIG THABLETS----*/
+/*FROM 768 TO 1023*/
+@media only screen and (max-width: 1023px) {
+    .main-nav {display: none;}
+    
+    .ham-menu {display: block;}
+
+    .content-box div {padding: 3%;}
+
+    .content-box {
+        margin-top: 100px;
+        width: 700px;
+    }
+
+    .content-box img {
+        height: 230px;
+        position: relative;
+        left: 60px
+    }
+
+    .content-box h1#hero-name {
+        font-size: 60px;
+        left: 170px;
+        top: 40px;
+    }
+
+    .content-box h1#hero-other {
+        font-size: 40px;
+        left: 270px;
+        top: 120px;
+    }
+
+    .links {display: none;}
+
+    #m1 {font-size: 40px;}
+
+    .merenje-text p {font-size: 28px;}
+
+    .merenje-button div {padding: 40px 120px;}
+
+    .merenje-button p {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 25px
+    }
+
+    p#btn {
+        margin: auto;
+        padding: 10px 50px
+    }
+
+    .merenje-button div {width: auto;}
+    
+     .merenje-button a{
+        text-decoration: none;
+    }
+
+    .footer-cont-box {
+        float: none;
+        border: none;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer-cont-box div p,
+    .footer-cont-box div h2 {
+        width: auto;
+        text-align: center;
+    }
+
+    .footer-cont-box div h2 {
+        font-size: 180%;
+        margin-bottom: 10px;
+    }
+
+    .footer-cont-box p {
+        font-size: 150%;
+        margin-bottom: 3px;
+    }
+
+    .social .face,
+    .social .inst,
+    .social .viber {
+        float: none;
+        margin: 0;
+        transform: scale(1.5);
+    }
+
+    .footer-cont-box.social div h2 {
+        margin-bottom: 20px
+    }
+
+    .footer-cont-box.social div p {
+        margin-bottom: 40px
+    }
+
+    #mail {
+        position: relative;
+        left: -3px;
+        top: -30px;
+    }
+
+    .fa-envelope {
+        position: relative;
+        left: -132px;
+        top: 35px
+    }
+    
+    .o-nama-box h2{
+        font-size: 35px
+    }
+    .o-nama-box p {
+        margin: 10px 30px;
+        height: 300px;
+    }
+   
+    div.kontakt-header h2{
+        font-size: 35px;
+        margin-top: 30px
+    }
+    div.kontakt-cont{
+        margin: 0 10%
+    }
+    div.kontakt-map{
+        display: none;
+    }
+    div.kontakt-info{
+        display: none;
+    }
+    div.inputs{
+        margin: 0;
+        width: 350px
+    }
+    
+    button{float: none;}
+}
+
+  input[type=text]{
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+#proizvodi{
+        padding: 80px 40px;
+    }
+
+
+/*----SMALL PHONES TO SMALL THABLETS----*/
+/*481 to 767*/
+@media only screen and (max-width: 767px) {
+
+    .content-box {
+        width: 430px;
+        margin-top: 153px;
+    }
+
+    .content-box img {
+        height: 200px;
+        left: 10px;
+    }
+
+    .content-box h1#hero-name {
+        font-size: 50px;
+        left: 108px;
+        left: 108px;
+        top: 40px;
+    }
+
+    .content-box h1#hero-other {
+        font-size: 30px;
+        left: 180px;
+        top: 106px;
+    }
+
+    #m1 {
+        font-size: 35px;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .cont {
+        margin: 0 auto;
+        width: auto
+    }
+
+    .cont:last-child {margin: 0 auto;}
+
+    .merenje-text p {
+        font-size: 24px;
+        width: 350px
+    }
+
+    .merenje-button div {padding: 20px 40px;}
+    
+    .merenje-button a{
+        text-decoration: none;
+    }
+    p#btn {
+        width: 150px;
+        padding: 15px 25px;
+        text-decoration: none;
+    }
+
+    .footer-cont-box p  {
+        font-size: 120%;
+        margin-bottom: 3px;
+    }
+
+    .fa-envelope {
+        position: relative;
+        left: -125px;
+        top: 29px;
+    }
+
+    .footer-cont-box div h2 {font-size: 150%;}
+
+    .social .face,
+    .social .inst,
+    .social .viber {
+        transform: scale(1.2);
+    }
+
+    .o-nama-box p {
+        overflow-y: scroll;
+        padding:50px ;
+        height: 400px
+    }
+    
+    
+     
+    input[type=text]{
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto
+    }
+    
+    #proizvodi{
+        padding: 50px 25px;
+    }
+
+}
+
+/*---SMALL PHONES---*/
+@media only screen and (max-width: 480px) {
+
+    header {height: 600px;}
+
+    nav .logo {height: 70px;}
+
+    #menu {
+        height: 476px;
+        width: 200px
+    }
+
+    ul#menu li {margin: 57px 0;}
+    
+    ul#menu li a{font-size: 17px;}
+
+    .show-menu {
+        transform: scale(0.8);
+        top: -80px;
+    }
+
+    .content-box {
+        width: 300px;
+        margin-top: -52px;
+        height: auto;
+    }
+
+
+    img.hero-logo {left: 70px;}
+
+    .content-box h1#hero-name {
+        width: 250px;
+        font-size: 35px;
+        left: 50px;
+        top: 220px
+    }
+
+    .content-box h1#hero-other {
+        font-size: 25px;
+        left: 56px;
+        top: 266px
+    }
+
+    #m1 {font-size: 30px;}
+
+    .merenje-text p {font-size: 22px;}
+
+    .merenje-button p {font-size: 22px;}
+
+    .o-nama-box p {
+        font-size: 17px;
+        padding: 20px;
+        height: 340px;
+    }
+
+    .o-nama-box h2 {font-size: 30px;}
+    
+     div.kontakt-header h2{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    div.kontakt-cont{
+        margin:0 5%;
+        height: auto;
+        padding:10px 0;
+    }
+    div.kontakt-map{display: none;}
+    
+    div.kontakt-info{display: none;}
+    
+    input[type=text]{
+        width:300px;
+        margin-right: auto;
+        margin-left: auto
+    }
+    
+    div.inputs{margin: 0;}
+    
+    button{float: none;}
+}
+
+
+
